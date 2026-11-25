@@ -14,13 +14,6 @@ void integer_sqrt() {
     (void)root;
 }
 
-void factorial_sum() {
-    int acc = 0;
-    int fact = 1;
-    for (int i = 1; i <= 6; ++i) { fact *= i; acc += fact; }
-    (void)acc;
-}
-
 void shift_left() {
     unsigned int n = 7u;
     unsigned int shifted = n << 4;
@@ -28,15 +21,18 @@ void shift_left() {
 }
 
 extern "C" int quiet_marble();
-extern "C" void noble_hollow();
-extern "C" void hidden_bridge();
+extern "C" void swift_thorn();
+extern "C" void swift_beacon();
+extern "C" void radiant_ripple();
+extern "C" void noble_crescent();
 
 int main() {
     count_down();
     integer_sqrt();
-    factorial_sum();
     shift_left();
-    noble_hollow();
-    hidden_bridge();
+    swift_thorn();
+    swift_beacon();
+    radiant_ripple();
+    noble_crescent();
     return quiet_marble();
 }
